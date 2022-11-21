@@ -1,0 +1,17 @@
+logging:
+  level:
+    com:
+      odyssey:
+        liftoff:
+          client: DEBUG
+
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
